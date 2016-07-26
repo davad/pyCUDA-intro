@@ -24,7 +24,9 @@ Download pyCUDA and unpack it
 
 `$ tar xzvf pycuda-VERSION.tar.gz`
 
-`$ cd pycuda-VERSION
+```
+$ cd pycuda-VERSION
 $ ./configure.py --cuda-root=/usr/local/cuda --cudadrv-lib-dir=/usr/lib --boost-inc-dir=/usr/include --boost-lib-dir=/usr/lib --boost-python-libname=boost_python-mt --boost-thread-libname=boost_thread-mt
 $ make
-$ sudo make install`
+$ sudo make install
+```
